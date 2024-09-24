@@ -47,7 +47,7 @@ export default function Home() {
           {/* About Me Box */}
           <div className="bg-gray-800 bg-opacity-70 p-6 rounded-3xl backdrop-blur-sm border border-gray-600 hover:border-gray-300 transition-colors duration-300">
             <div className="flex flex-row items-center justify-between mb-4">
-              <h2 className="text-xl md:text-3xl font-semibold text-gray-200">Hello</h2>
+              <h2 className="text-xl md:text-2xl font-semibold text-gray-200 mb-4">A quick intro...</h2>
               <Link href="/Violina_Doley_Resume.pdf" target="_blank">
                 <span className="text-white hover:text-white transition-all duration-300 text-sm flex flex-row 
                 transform hover:scale-105 w-fit justify-center items-center
@@ -60,11 +60,13 @@ export default function Home() {
               </Link>
             </div>
             <p className="text-gray-300 text-sm">
-            I am a final year undergraduate my B.Tech in Computer Science and Engineering at National Institute of Technology Karnataka, Surathkal, along with a Focus Area in Artificial Intelligence and Machine Learning
-              I am a passionate researcher, aspiring developer, and contemplative writer from India. My primary ambition is to delve deep into the theoretical foundations of AI and Computer Vision while also exploring the realm of power-efficient AI.  
-              <br /><br />
-              My interests span a broad spectrum, including machine learning, mathematics, astronomy, economics, literature, anime, manga, and manhwa. I thoroughly enjoy an insightful conversation on any topic... be it on the narrative depth of <span className="text-blue-400">Attack on Titan</span> or on the philosophical underpinnings of the universe or practically anything else.<br /><br />
-              <br /><br />
+            I am a final-year undergraduate pursuing my B.Tech in Computer Science and Engineering at the National Institute of Technology Karnataka, Surathkal, with a focus on Artificial Intelligence and Machine Learning. Throughout my academic journey, I have cultivated a deep interest in how AI can solve real-world problems and drive innovation across various fields.
+            <br/><br />
+            Currently, I am delving into Natural Language Processing and Large Language Models, exploring their potential to automate complex tasks. I have gained hands-on experience in these areas through internships, where I developed practical solutions and learned to apply my knowledge in real-world settings.
+            <br /><br />
+            In addition to NLP, I have a strong interest in Machine Learning, Deep Learning, and Computer Vision, and I have completed multiple research internships that have further enhanced my skills in these fields.
+            <br /><br />
+            I’m always open to new opportunities and creative collaborations :)
             </p>
           </div>
 
@@ -112,7 +114,7 @@ export default function Home() {
 
           {/* Experience Box */}
           <div className="bg-gray-800 bg-opacity-70 p-4 rounded-3xl backdrop-blur-sm border border-gray-600 hover:border-gray-300 transition-colors duration-300 mb-10">
-            <h2 className="text-xl md:text-2xl font-semibold text-gray-200 pb-0">Experience</h2>
+            <h2 className="text-xl md:text-2xl font-semibold text-gray-200 mb-4">Experience</h2>
             <div className="flex items-center justify-center h-3/4 py-12 px-4 md:px-8">
               <WorkTimeline />
             </div>
