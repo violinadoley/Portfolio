@@ -48,7 +48,7 @@ export default function Home() {
           <div className="bg-gray-800 bg-opacity-70 p-6 rounded-3xl backdrop-blur-sm border border-gray-600 hover:border-gray-300 transition-colors duration-300">
             <div className="flex flex-row items-center justify-between mb-4">
               <h2 className="text-xl md:text-2xl font-semibold text-gray-200 mb-4">A quick intro...</h2>
-              <Link href="/Violina_Doley_Resume.pdf" target="_blank">
+              <Link href="/Resume_ViolinaDoley_.pdf" target="_blank">
                 <span className="text-white hover:text-white transition-all duration-300 text-sm flex flex-row 
                 transform hover:scale-105 w-fit justify-center items-center
                 bg-gradient-to-br from-blue-600 to-blue-400
